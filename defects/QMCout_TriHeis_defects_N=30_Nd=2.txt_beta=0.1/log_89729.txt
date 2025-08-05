@@ -1,0 +1,96 @@
+Mon Aug 4 12:01:11 PM EDT 2025
+Starting calculation for MPI process No. 3, RNG seed = 2677892142
+Starting calculation for MPI process No. 4, RNG seed = 2375387344
+Starting calculation for MPI process No. 5, RNG seed = 4049952232
+Starting calculation for MPI process No. 6, RNG seed = 2755919091
+Starting calculation for MPI process No. 7, RNG seed = 563190739
+Starting calculation for MPI process No. 8, RNG seed = 2662421592
+Starting calculation for MPI process No. 9, RNG seed = 2443831327
+Starting calculation for MPI process No. 0, RNG seed = 1623062248
+Starting calculation for MPI process No. 1, RNG seed = 3429340389
+Starting calculation for MPI process No. 2, RNG seed = 1515423943
+Calculation completed for MPI process No. 5, elapsed time = 3514.27 seconds
+Calculation completed for MPI process No. 4, elapsed time = 3597.07 seconds
+Calculation completed for MPI process No. 2, elapsed time = 3608.72 seconds
+Calculation completed for MPI process No. 0, elapsed time = 3615.53 seconds
+Calculation completed for MPI process No. 1, elapsed time = 3659.4 seconds
+Calculation completed for MPI process No. 9, elapsed time = 3668.65 seconds
+Calculation completed for MPI process No. 6, elapsed time = 3703.43 seconds
+Calculation completed for MPI process No. 8, elapsed time = 3703.83 seconds
+Calculation completed for MPI process No. 3, elapsed time = 3707.86 seconds
+Calculation completed for MPI process No. 7, elapsed time = 3886.18 seconds
+
+Parameters: beta = 0.1, Tsteps = 1000000, steps = 2000000000
+
+Number of MPI processes: 10
+
+Output of the MPI process No. 0:
+
+mean(sgn(W)) = 0.99185892
+std.dev.(sgn(W)) = 2.36853821e-05
+mean(q) = 1.15104092
+max(q) = 19
+Observable #1: H
+mean(O) = -16.8896071
+std.dev.(O) = 0.00323176376
+Observable #2: H^2
+mean(O) = 444.42712
+std.dev.(O) = 0.186648556
+Observable #3: H_{diag}
+mean(O) = -5.62858514
+std.dev.(O) = 0.00239694772
+Observable #4: H_{diag}^2
+mean(O) = 103.234029
+std.dev.(O) = 0.0398738728
+Observable #5: H_{offdiag}
+mean(O) = -11.261022
+std.dev.(O) = 0.00290299644
+Observable #6: H_{offdiag}^2
+mean(O) = 251.332526
+std.dev.(O) = 0.168777104
+Derived observable: specific heat
+mean(O) = 1.59168291
+std.dev.(O) = 0.000998743828
+Elapsed cpu time = 3615.53137 seconds
+
+Testing thermalization
+
+Observable #1: H, mean of std.dev.(O) = 0.0033100555, std.dev. of mean(O) = 0.00252492171: test passed
+Observable #2: H^2, mean of std.dev.(O) = 0.197157221, std.dev. of mean(O) = 0.126410509: test passed
+Observable #3: H_{diag}, mean of std.dev.(O) = 0.00223355253, std.dev. of mean(O) = 0.00184062417: test passed
+Observable #4: H_{diag}^2, mean of std.dev.(O) = 0.0373134934, std.dev. of mean(O) = 0.0319034835: test passed
+Observable #5: H_{offdiag}, mean of std.dev.(O) = 0.00307080926, std.dev. of mean(O) = 0.0023656998: test passed
+Observable #6: H_{offdiag}^2, mean of std.dev.(O) = 0.178271589, std.dev. of mean(O) = 0.126230516: test passed
+Derived observable: specific heat, mean of std.dev.(O) = 0.00103793871, std.dev. of mean(O) = 0.000588613585: test passed
+
+Collecting statistics and finalizing the calculation
+
+Total number of MC updates = 20000000000
+Total mean(q) = 1.15076596
+Total max(q) = 19
+Total mean(sgn(W)) = 0.991886269
+Total std.dev.(sgn(W)) = 7.7661628e-06
+Total of observable #1: H
+Total mean(O) = -16.8900236
+Total std.dev.(O) = 0.00109401995
+Total of observable #2: H^2
+Total mean(O) = 444.42804
+Total std.dev.(O) = 0.0633583604
+Total of observable #3: H_{diag}
+Total mean(O) = -5.63052212
+Total std.dev.(O) = 0.000768651949
+Total of observable #4: H_{diag}^2
+Total mean(O) = 103.255197
+Total std.dev.(O) = 0.0128381018
+Total of observable #5: H_{offdiag}
+Total mean(O) = -11.2595015
+Total std.dev.(O) = 0.000979812309
+Total of observable #6: H_{offdiag}^2
+Total mean(O) = 251.336795
+Total std.dev.(O) = 0.0564104517
+Total of derived observable: specific heat
+Total mean(O) = 1.59155141
+Total std.dev.(O) = 0.000323498668
+Total elapsed cpu time = 36664.9419 seconds
+
+Wall-clock time = 3886.18125 seconds

@@ -1,0 +1,96 @@
+Mon Aug 4 12:00:57 PM EDT 2025
+Starting calculation for MPI process No. 4, RNG seed = 1893072611
+Starting calculation for MPI process No. 5, RNG seed = 3955997045
+Starting calculation for MPI process No. 6, RNG seed = 1394488192
+Starting calculation for MPI process No. 7, RNG seed = 762437682
+Starting calculation for MPI process No. 8, RNG seed = 2475218931
+Starting calculation for MPI process No. 9, RNG seed = 819239147
+Starting calculation for MPI process No. 0, RNG seed = 1344899833
+Starting calculation for MPI process No. 1, RNG seed = 1487133036
+Starting calculation for MPI process No. 2, RNG seed = 1010179054
+Starting calculation for MPI process No. 3, RNG seed = 3597755809
+Calculation completed for MPI process No. 2, elapsed time = 3231.31 seconds
+Calculation completed for MPI process No. 3, elapsed time = 3382.18 seconds
+Calculation completed for MPI process No. 7, elapsed time = 3386.74 seconds
+Calculation completed for MPI process No. 4, elapsed time = 3410.35 seconds
+Calculation completed for MPI process No. 8, elapsed time = 3445.8 seconds
+Calculation completed for MPI process No. 6, elapsed time = 3459.16 seconds
+Calculation completed for MPI process No. 1, elapsed time = 3469.39 seconds
+Calculation completed for MPI process No. 0, elapsed time = 3480.05 seconds
+Calculation completed for MPI process No. 9, elapsed time = 3503.32 seconds
+Calculation completed for MPI process No. 5, elapsed time = 3516.11 seconds
+
+Parameters: beta = 0.1, Tsteps = 1000000, steps = 2000000000
+
+Number of MPI processes: 10
+
+Output of the MPI process No. 0:
+
+mean(sgn(W)) = 0.99188486
+std.dev.(sgn(W)) = 2.21131701e-05
+mean(q) = 0.91016045
+max(q) = 16
+Observable #1: H
+mean(O) = -13.280706
+std.dev.(O) = 0.00248297382
+Observable #2: H^2
+mean(O) = 301.075658
+std.dev.(O) = 0.126280902
+Observable #3: H_{diag}
+mean(O) = -4.42716429
+std.dev.(O) = 0.00173599321
+Observable #4: H_{diag}^2
+mean(O) = 75.428571
+std.dev.(O) = 0.0244535812
+Observable #5: H_{offdiag}
+mean(O) = -8.85354172
+std.dev.(O) = 0.00241833306
+Observable #6: H_{offdiag}^2
+mean(O) = 175.823531
+std.dev.(O) = 0.121430033
+Derived observable: specific heat
+mean(O) = 1.24698506
+std.dev.(O) = 0.000716421641
+Elapsed cpu time = 3480.05211 seconds
+
+Testing thermalization
+
+Observable #1: H, mean of std.dev.(O) = 0.00257070606, std.dev. of mean(O) = 0.00194856413: test passed
+Observable #2: H^2, mean of std.dev.(O) = 0.131331608, std.dev. of mean(O) = 0.109649966: test passed
+Observable #3: H_{diag}, mean of std.dev.(O) = 0.00170885109, std.dev. of mean(O) = 0.00115156003: test passed
+Observable #4: H_{diag}^2, mean of std.dev.(O) = 0.0238277543, std.dev. of mean(O) = 0.0178619804: test passed
+Observable #5: H_{offdiag}, mean of std.dev.(O) = 0.00239780795, std.dev. of mean(O) = 0.00247692779: test passed
+Observable #6: H_{offdiag}^2, mean of std.dev.(O) = 0.123339808, std.dev. of mean(O) = 0.123895567: test passed
+Derived observable: specific heat, mean of std.dev.(O) = 0.000746068454, std.dev. of mean(O) = 0.000682380353: test passed
+
+Collecting statistics and finalizing the calculation
+
+Total number of MC updates = 20000000000
+Total mean(q) = 0.91009474
+Total max(q) = 17
+Total mean(sgn(W)) = 0.991889231
+Total std.dev.(sgn(W)) = 7.54364713e-06
+Total of observable #1: H
+Total mean(O) = -13.2800418
+Total std.dev.(O) = 0.000765738199
+Total of observable #2: H^2
+Total mean(O) = 301.039649
+Total std.dev.(O) = 0.040005505
+Total of observable #3: H_{diag}
+Total mean(O) = -4.42700902
+Total std.dev.(O) = 0.000531285516
+Total of observable #4: H_{diag}^2
+Total mean(O) = 75.4417645
+Total std.dev.(O) = 0.00734788546
+Total of observable #5: H_{offdiag}
+Total mean(O) = -8.85303277
+Total std.dev.(O) = 0.00072457551
+Total of observable #6: H_{offdiag}^2
+Total mean(O) = 175.768031
+Total std.dev.(O) = 0.0374271781
+Total of derived observable: specific heat
+Total mean(O) = 1.24680139
+Total std.dev.(O) = 0.000229891037
+Total elapsed cpu time = 34284.4036 seconds
+
+Wall-clock time = 3516.11299 seconds

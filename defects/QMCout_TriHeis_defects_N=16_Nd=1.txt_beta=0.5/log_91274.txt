@@ -1,0 +1,96 @@
+Tue Aug 5 02:44:26 PM EDT 2025
+Starting calculation for MPI process No. 4, RNG seed = 1689936489
+Starting calculation for MPI process No. 5, RNG seed = 2918216310
+Starting calculation for MPI process No. 6, RNG seed = 1214106332
+Starting calculation for MPI process No. 7, RNG seed = 2240221619
+Starting calculation for MPI process No. 8, RNG seed = 1641543124
+Starting calculation for MPI process No. 9, RNG seed = 2993031882
+Starting calculation for MPI process No. 0, RNG seed = 2396135601
+Starting calculation for MPI process No. 1, RNG seed = 2073941615
+Starting calculation for MPI process No. 2, RNG seed = 281326120
+Starting calculation for MPI process No. 3, RNG seed = 985794196
+Calculation completed for MPI process No. 0, elapsed time = 554.286 seconds
+Calculation completed for MPI process No. 8, elapsed time = 554.523 seconds
+Calculation completed for MPI process No. 4, elapsed time = 555.798 seconds
+Calculation completed for MPI process No. 6, elapsed time = 556.599 seconds
+Calculation completed for MPI process No. 2, elapsed time = 559.339 seconds
+Calculation completed for MPI process No. 5, elapsed time = 562.907 seconds
+Calculation completed for MPI process No. 1, elapsed time = 563.587 seconds
+Calculation completed for MPI process No. 3, elapsed time = 564.183 seconds
+Calculation completed for MPI process No. 7, elapsed time = 564.339 seconds
+Calculation completed for MPI process No. 9, elapsed time = 566.03 seconds
+
+Parameters: beta = 0.5, Tsteps = 1000000, steps = 50000000
+
+Number of MPI processes: 10
+
+Output of the MPI process No. 0:
+
+mean(sgn(W)) = 0.612738
+std.dev.(sgn(W)) = 0.00260283784
+mean(q) = 9.2458606
+max(q) = 37
+Observable #1: H
+mean(O) = -23.6619189
+std.dev.(O) = 0.0340778431
+Observable #2: H^2
+mean(O) = 571.443428
+std.dev.(O) = 1.818651
+Observable #3: H_{diag}
+mean(O) = -7.88098423
+std.dev.(O) = 0.0492291307
+Observable #4: H_{diag}^2
+mean(O) = 114.683208
+std.dev.(O) = 0.828780508
+Observable #5: H_{offdiag}
+mean(O) = -15.7809346
+std.dev.(O) = 0.0715477183
+Observable #6: H_{offdiag}^2
+mean(O) = 305.61605
+std.dev.(O) = 2.91061842
+Derived observable: specific heat
+mean(O) = 2.88925584
+std.dev.(O) = 0.0806746721
+Elapsed cpu time = 554.286352 seconds
+
+Testing thermalization
+
+Observable #1: H, mean of std.dev.(O) = 0.0349656184, std.dev. of mean(O) = 0.0325776191: test passed
+Observable #2: H^2, mean of std.dev.(O) = 1.87092094, std.dev. of mean(O) = 1.76356312: test passed
+Observable #3: H_{diag}, mean of std.dev.(O) = 0.0486926353, std.dev. of mean(O) = 0.0325467: test passed
+Observable #4: H_{diag}^2, mean of std.dev.(O) = 0.817553828, std.dev. of mean(O) = 0.595506644: test passed
+Observable #5: H_{offdiag}, mean of std.dev.(O) = 0.071372299, std.dev. of mean(O) = 0.0521232679: test passed
+Observable #6: H_{offdiag}^2, mean of std.dev.(O) = 2.93570203, std.dev. of mean(O) = 2.28518878: test passed
+Derived observable: specific heat, mean of std.dev.(O) = 0.0803413381, std.dev. of mean(O) = 0.0750335283: test passed
+
+Collecting statistics and finalizing the calculation
+
+Total number of MC updates = 500000000
+Total mean(q) = 9.24388472
+Total max(q) = 38
+Total mean(sgn(W)) = 0.61373692
+Total std.dev.(sgn(W)) = 0.000802648199
+Total of observable #1: H
+Total mean(O) = -23.6759354
+Total std.dev.(O) = 0.0110151968
+Total of observable #2: H^2
+Total mean(O) = 572.17446
+Total std.dev.(O) = 0.594609145
+Total of observable #3: H_{diag}
+Total mean(O) = -7.89093147
+Total std.dev.(O) = 0.0157346168
+Total of observable #4: H_{diag}^2
+Total mean(O) = 114.953938
+Total std.dev.(O) = 0.258728755
+Total of observable #5: H_{offdiag}
+Total mean(O) = -15.7850039
+Total std.dev.(O) = 0.0227785811
+Total of observable #6: H_{offdiag}^2
+Total mean(O) = 306.260291
+Total std.dev.(O) = 0.921216786
+Total of derived observable: specific heat
+Total mean(O) = 2.90613584
+Total std.dev.(O) = 0.0272101351
+Total elapsed cpu time = 5601.59153 seconds
+
+Wall-clock time = 566.032862 seconds

@@ -1,0 +1,16 @@
+Mon Aug 4 11:52:19 AM EDT 2025
+Starting calculation for MPI process No. 10, RNG seed = 786123571
+Starting calculation for MPI process No. 11, RNG seed = 1561732480
+Starting calculation for MPI process No. 13, RNG seed = 3250435366
+Starting calculation for MPI process No. 14, RNG seed = 694022395
+Starting calculation for MPI process No. 1, RNG seed = 3723952698
+Starting calculation for MPI process No. 2, RNG seed = 75399626
+Starting calculation for MPI process No. 3, RNG seed = 1558614624
+Starting calculation for MPI process No. 5, RNG seed = 1566276948
+Starting calculation for MPI process No. 6, RNG seed = 1043521382
+Starting calculation for MPI process No. 7, RNG seed = 2979017601
+Starting calculation for MPI process No. 9, RNG seed = 1258493385
+Starting calculation for MPI process No. 0, RNG seed = 354323306
+Starting calculation for MPI process No. 4, RNG seed = 1360255321
+Starting calculation for MPI process No. 8, RNG seed = 4272425096
+Starting calculation for MPI process No. 12, RNG seed = 3829065896

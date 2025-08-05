@@ -1,0 +1,96 @@
+Mon Aug 4 12:00:16 PM EDT 2025
+Starting calculation for MPI process No. 7, RNG seed = 2637443554
+Starting calculation for MPI process No. 8, RNG seed = 349257942
+Starting calculation for MPI process No. 9, RNG seed = 3100626514
+Starting calculation for MPI process No. 0, RNG seed = 2595569830
+Starting calculation for MPI process No. 1, RNG seed = 2640648658
+Starting calculation for MPI process No. 2, RNG seed = 743770387
+Starting calculation for MPI process No. 3, RNG seed = 946551068
+Starting calculation for MPI process No. 4, RNG seed = 4043861239
+Starting calculation for MPI process No. 5, RNG seed = 233777337
+Starting calculation for MPI process No. 6, RNG seed = 3170179231
+Calculation completed for MPI process No. 0, elapsed time = 3463.48 seconds
+Calculation completed for MPI process No. 4, elapsed time = 3476.99 seconds
+Calculation completed for MPI process No. 5, elapsed time = 3477.17 seconds
+Calculation completed for MPI process No. 3, elapsed time = 3614.99 seconds
+Calculation completed for MPI process No. 2, elapsed time = 3631.39 seconds
+Calculation completed for MPI process No. 9, elapsed time = 3673.43 seconds
+Calculation completed for MPI process No. 7, elapsed time = 3673.55 seconds
+Calculation completed for MPI process No. 8, elapsed time = 3787.42 seconds
+Calculation completed for MPI process No. 1, elapsed time = 3795.73 seconds
+Calculation completed for MPI process No. 6, elapsed time = 4079.01 seconds
+
+Parameters: beta = 0.1, Tsteps = 1000000, steps = 2000000000
+
+Number of MPI processes: 10
+
+Output of the MPI process No. 0:
+
+mean(sgn(W)) = 0.99187018
+std.dev.(sgn(W)) = 2.009757e-05
+mean(q) = 0.428868655
+max(q) = 12
+Observable #1: H
+mean(O) = -6.060269
+std.dev.(O) = 0.00131442986
+Observable #2: H^2
+mean(O) = 92.4151292
+std.dev.(O) = 0.0423687814
+Observable #3: H_{diag}
+mean(O) = -2.02019113
+std.dev.(O) = 0.00079804525
+Observable #4: H_{diag}^2
+mean(O) = 28.5053364
+std.dev.(O) = 0.00662773124
+Observable #5: H_{offdiag}
+mean(O) = -4.04007787
+std.dev.(O) = 0.00122148511
+Observable #6: H_{offdiag}^2
+mean(O) = 59.3175475
+std.dev.(O) = 0.0433241168
+Derived observable: specific heat
+mean(O) = 0.556882688
+std.dev.(O) = 0.000297724789
+Elapsed cpu time = 3463.47556 seconds
+
+Testing thermalization
+
+Observable #1: H, mean of std.dev.(O) = 0.00130170922, std.dev. of mean(O) = 0.00149684813: test passed
+Observable #2: H^2, mean of std.dev.(O) = 0.0433529976, std.dev. of mean(O) = 0.0547656987: test passed
+Observable #3: H_{diag}, mean of std.dev.(O) = 0.000781577311, std.dev. of mean(O) = 0.000744567162: test passed
+Observable #4: H_{diag}^2, mean of std.dev.(O) = 0.00647381261, std.dev. of mean(O) = 0.00531188137: test passed
+Observable #5: H_{offdiag}, mean of std.dev.(O) = 0.00123424406, std.dev. of mean(O) = 0.0015541946: test passed
+Observable #6: H_{offdiag}^2, mean of std.dev.(O) = 0.0439551706, std.dev. of mean(O) = 0.0540753165: test passed
+Derived observable: specific heat, mean of std.dev.(O) = 0.000307935034, std.dev. of mean(O) = 0.000379414542: test passed
+
+Collecting statistics and finalizing the calculation
+
+Total number of MC updates = 20000000000
+Total mean(q) = 0.42878434
+Total max(q) = 14
+Total mean(sgn(W)) = 0.99189328
+Total std.dev.(sgn(W)) = 6.58297247e-06
+Total of observable #1: H
+Total mean(O) = -6.06013791
+Total std.dev.(O) = 0.000406005465
+Total of observable #2: H^2
+Total mean(O) = 92.4251456
+Total std.dev.(O) = 0.0142229892
+Total of observable #3: H_{diag}
+Total mean(O) = -2.02013214
+Total std.dev.(O) = 0.000234629604
+Total of observable #4: H_{diag}^2
+Total mean(O) = 28.5127878
+Total std.dev.(O) = 0.00202255011
+Total of observable #5: H_{offdiag}
+Total mean(O) = -4.04000578
+Total std.dev.(O) = 0.000399983588
+Total of observable #6: H_{offdiag}^2
+Total mean(O) = 59.3281666
+Total std.dev.(O) = 0.0145035172
+Total of derived observable: specific heat
+Total mean(O) = 0.55699874
+Total std.dev.(O) = 0.000102310647
+Total elapsed cpu time = 36673.15 seconds
+
+Wall-clock time = 4079.01301 seconds

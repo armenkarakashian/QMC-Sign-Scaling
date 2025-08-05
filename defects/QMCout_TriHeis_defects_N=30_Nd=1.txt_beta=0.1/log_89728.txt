@@ -1,0 +1,96 @@
+Mon Aug 4 12:01:04 PM EDT 2025
+Starting calculation for MPI process No. 0, RNG seed = 4063077045
+Starting calculation for MPI process No. 1, RNG seed = 4151645768
+Starting calculation for MPI process No. 2, RNG seed = 4189240233
+Starting calculation for MPI process No. 3, RNG seed = 1339726838
+Starting calculation for MPI process No. 4, RNG seed = 2553560774
+Starting calculation for MPI process No. 5, RNG seed = 4121029759
+Starting calculation for MPI process No. 6, RNG seed = 2287619419
+Starting calculation for MPI process No. 7, RNG seed = 3804407117
+Starting calculation for MPI process No. 8, RNG seed = 3118311864
+Starting calculation for MPI process No. 9, RNG seed = 3863068417
+Calculation completed for MPI process No. 9, elapsed time = 3563.61 seconds
+Calculation completed for MPI process No. 2, elapsed time = 3623.33 seconds
+Calculation completed for MPI process No. 8, elapsed time = 3658.87 seconds
+Calculation completed for MPI process No. 5, elapsed time = 3690.45 seconds
+Calculation completed for MPI process No. 1, elapsed time = 3694.18 seconds
+Calculation completed for MPI process No. 4, elapsed time = 3695.33 seconds
+Calculation completed for MPI process No. 3, elapsed time = 3714.71 seconds
+Calculation completed for MPI process No. 7, elapsed time = 3751.69 seconds
+Calculation completed for MPI process No. 6, elapsed time = 3796.91 seconds
+Calculation completed for MPI process No. 0, elapsed time = 3820.22 seconds
+
+Parameters: beta = 0.1, Tsteps = 1000000, steps = 2000000000
+
+Number of MPI processes: 10
+
+Output of the MPI process No. 0:
+
+mean(sgn(W)) = 0.99201953
+std.dev.(sgn(W)) = 2.23815e-05
+mean(q) = 1.14682848
+max(q) = 17
+Observable #1: H
+mean(O) = -16.8440569
+std.dev.(O) = 0.00307346747
+Observable #2: H^2
+mean(O) = 442.049926
+std.dev.(O) = 0.1789083
+Observable #3: H_{diag}
+mean(O) = -5.61851037
+std.dev.(O) = 0.00223779825
+Observable #4: H_{diag}^2
+mean(O) = 103.157415
+std.dev.(O) = 0.0361692926
+Observable #5: H_{offdiag}
+mean(O) = -11.2255465
+std.dev.(O) = 0.00297039216
+Observable #6: H_{offdiag}^2
+mean(O) = 250.237248
+std.dev.(O) = 0.164617898
+Derived observable: specific heat
+mean(O) = 1.58327674
+std.dev.(O) = 0.000932819512
+Elapsed cpu time = 3820.21656 seconds
+
+Testing thermalization
+
+Observable #1: H, mean of std.dev.(O) = 0.00325341719, std.dev. of mean(O) = 0.00369891732: test passed
+Observable #2: H^2, mean of std.dev.(O) = 0.190966593, std.dev. of mean(O) = 0.179861611: test passed
+Observable #3: H_{diag}, mean of std.dev.(O) = 0.00228593682, std.dev. of mean(O) = 0.00243698835: test passed
+Observable #4: H_{diag}^2, mean of std.dev.(O) = 0.0376685622, std.dev. of mean(O) = 0.0395276682: test passed
+Observable #5: H_{offdiag}, mean of std.dev.(O) = 0.00306287022, std.dev. of mean(O) = 0.0030433137: test passed
+Observable #6: H_{offdiag}^2, mean of std.dev.(O) = 0.175692649, std.dev. of mean(O) = 0.188491406: test passed
+Derived observable: specific heat, mean of std.dev.(O) = 0.000995613302, std.dev. of mean(O) = 0.00083400986: test passed
+
+Collecting statistics and finalizing the calculation
+
+Total number of MC updates = 20000000000
+Total mean(q) = 1.14707981
+Total max(q) = 21
+Total mean(sgn(W)) = 0.992040118
+Total std.dev.(sgn(W)) = 8.02041123e-06
+Total of observable #1: H
+Total mean(O) = -16.8435599
+Total std.dev.(O) = 0.00107448719
+Total of observable #2: H^2
+Total mean(O) = 442.109087
+Total std.dev.(O) = 0.0639692249
+Total of observable #3: H_{diag}
+Total mean(O) = -5.61491233
+Total std.dev.(O) = 0.000725479124
+Total of observable #4: H_{diag}^2
+Total mean(O) = 103.106444
+Total std.dev.(O) = 0.0119887772
+Total of observable #5: H_{offdiag}
+Total mean(O) = -11.2286476
+Total std.dev.(O) = 0.00099991928
+Total of observable #6: H_{offdiag}^2
+Total mean(O) = 250.461401
+Total std.dev.(O) = 0.0577643301
+Total of derived observable: specific heat
+Total mean(O) = 1.58403575
+Total std.dev.(O) = 0.000332040038
+Total elapsed cpu time = 37009.2815 seconds
+
+Wall-clock time = 3820.21894 seconds

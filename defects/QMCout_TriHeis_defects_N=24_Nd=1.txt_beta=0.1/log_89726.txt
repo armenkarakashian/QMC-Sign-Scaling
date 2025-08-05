@@ -1,0 +1,96 @@
+Mon Aug 4 12:00:50 PM EDT 2025
+Starting calculation for MPI process No. 2, RNG seed = 1495011429
+Starting calculation for MPI process No. 3, RNG seed = 4023951107
+Starting calculation for MPI process No. 4, RNG seed = 4110149273
+Starting calculation for MPI process No. 5, RNG seed = 1853188744
+Starting calculation for MPI process No. 6, RNG seed = 3017663660
+Starting calculation for MPI process No. 7, RNG seed = 387377577
+Starting calculation for MPI process No. 8, RNG seed = 3082910990
+Starting calculation for MPI process No. 9, RNG seed = 2813817714
+Starting calculation for MPI process No. 0, RNG seed = 2941361342
+Starting calculation for MPI process No. 1, RNG seed = 1546452798
+Calculation completed for MPI process No. 4, elapsed time = 4031.76 seconds
+Calculation completed for MPI process No. 0, elapsed time = 4215.58 seconds
+Calculation completed for MPI process No. 7, elapsed time = 4253.06 seconds
+Calculation completed for MPI process No. 8, elapsed time = 4258.31 seconds
+Calculation completed for MPI process No. 5, elapsed time = 4273.86 seconds
+Calculation completed for MPI process No. 1, elapsed time = 4311.52 seconds
+Calculation completed for MPI process No. 3, elapsed time = 4338.91 seconds
+Calculation completed for MPI process No. 2, elapsed time = 4447.66 seconds
+Calculation completed for MPI process No. 9, elapsed time = 4459.13 seconds
+Calculation completed for MPI process No. 6, elapsed time = 4626.43 seconds
+
+Parameters: beta = 0.1, Tsteps = 1000000, steps = 2000000000
+
+Number of MPI processes: 10
+
+Output of the MPI process No. 0:
+
+mean(sgn(W)) = 0.99204261
+std.dev.(sgn(W)) = 2.12185428e-05
+mean(q) = 0.906157885
+max(q) = 16
+Observable #1: H
+mean(O) = -13.2293456
+std.dev.(O) = 0.00264197741
+Observable #2: H^2
+mean(O) = 298.765113
+std.dev.(O) = 0.134167464
+Observable #3: H_{diag}
+mean(O) = -4.40993883
+std.dev.(O) = 0.00179831266
+Observable #4: H_{diag}^2
+mean(O) = 75.2970712
+std.dev.(O) = 0.0248129887
+Observable #5: H_{offdiag}
+mean(O) = -8.81940678
+std.dev.(O) = 0.00246248684
+Observable #6: H_{offdiag}^2
+mean(O) = 174.834674
+std.dev.(O) = 0.124738036
+Derived observable: specific heat
+mean(O) = 1.23749528
+std.dev.(O) = 0.000754775918
+Elapsed cpu time = 4215.57988 seconds
+
+Testing thermalization
+
+Observable #1: H, mean of std.dev.(O) = 0.00263298998, std.dev. of mean(O) = 0.00203168301: test passed
+Observable #2: H^2, mean of std.dev.(O) = 0.132310802, std.dev. of mean(O) = 0.141253218: test passed
+Observable #3: H_{diag}, mean of std.dev.(O) = 0.00173717723, std.dev. of mean(O) = 0.00255767568: test failed
+Observable #4: H_{diag}^2, mean of std.dev.(O) = 0.0238537302, std.dev. of mean(O) = 0.023552287: test passed
+Observable #5: H_{offdiag}, mean of std.dev.(O) = 0.00243625263, std.dev. of mean(O) = 0.0025113593: test passed
+Observable #6: H_{offdiag}^2, mean of std.dev.(O) = 0.124007474, std.dev. of mean(O) = 0.148515451: test passed
+Derived observable: specific heat, mean of std.dev.(O) = 0.000743726809, std.dev. of mean(O) = 0.00109950868: test failed
+
+Collecting statistics and finalizing the calculation
+
+Total number of MC updates = 20000000000
+Total mean(q) = 0.906349579
+Total max(q) = 16
+Total mean(sgn(W)) = 0.992049033
+Total std.dev.(sgn(W)) = 7.2550779e-06
+Total of observable #1: H
+Total mean(O) = -13.2311431
+Total std.dev.(O) = 0.000850802224
+Total of observable #2: H^2
+Total mean(O) = 298.954726
+Total std.dev.(O) = 0.0415622905
+Total of observable #3: H_{diag}
+Total mean(O) = -4.40951071
+Total std.dev.(O) = 0.000581849357
+Total of observable #4: H_{diag}^2
+Total mean(O) = 75.3218543
+Total std.dev.(O) = 0.00759857259
+Total of observable #5: H_{offdiag}
+Total mean(O) = -8.82163235
+Total std.dev.(O) = 0.000777223401
+Total of observable #6: H_{offdiag}^2
+Total mean(O) = 174.977839
+Total std.dev.(O) = 0.0395031801
+Total of derived observable: specific heat
+Total mean(O) = 1.23891579
+Total std.dev.(O) = 0.000230009288
+Total elapsed cpu time = 43216.2052 seconds
+
+Wall-clock time = 4626.42825 seconds
